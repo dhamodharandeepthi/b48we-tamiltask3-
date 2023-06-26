@@ -1,10 +1,9 @@
-
 let myResume={
     "basics": {
-      "name": "KALAIVANI S",
-      "email": "gkalaisakthi22@gmail.com",
-      "phone": 7548825495,
-      "degree": "BSC",
+      "name": "DHAMODHARAN R S",
+      "email": "rdhamodharan22@gmail.com",
+      "phone": 7548825259,
+      "degree": "BE",
       "location": {
         "address": "2/547 Vengateshwara nagar, Veerapandi",
         "postalCode": 641605,
@@ -15,20 +14,20 @@ let myResume={
       },
     "work": [
       {
-        "company": "MEDHAMS PVT",
-        "position": "Senior AR Caller",
+        "company": "SRI SAKTHI ENTERPRICES",
+        "position": "ADMIN",
         "startDate": "2021",
         "endDate": "current",
-        "summary": "i am the AR Caller, Internation Voice process",
+        "summary": "i am the admin of the office",
       },
     ],
     "education": [
       {
-        "institution": "Hindusthan college of Arts and science",
-        "department": "MechatronicsComputer science",
+        "institution": "Mahendra college of Engineering",
+        "department": "MechatronicsComputer Mechanical Engineering",
         "studyType": "fulltime",
-        "batch start year": 2011,
-        "batch end year": 2014,
+        "batch start year": 2012,
+        "batch end year": 2015,
         }
     ],
     "skills": [
