@@ -24,10 +24,10 @@ let myResume={
     "education": [
       {
         "institution": "Mahendra college of Engineering",
-        "department": "MechatronicsComputer Mechanical Engineering",
+        "department": "Mechanical Engineering",
         "studyType": "fulltime",
         "batch start year": 2012,
-        "batch end year": 2015,
+        "batch end year": 2016,
         }
     ],
     "skills": [
