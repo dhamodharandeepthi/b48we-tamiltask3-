@@ -1,0 +1,43 @@
+WINDOW:
+•	The window object is supported by all browsers. It represents the browser's window. 
+•	Window is the main JavaScript object root, aka the global object in a browser, also can be treated as the root of the document object model. You can access it as window.
+•	The window is the first thing that gets loaded into the browser. This window object has the majority of the properties like length, innerWidth, innerHeight, name, if it has been closed, its parents, and more.
+Example
+•	let w = window.innerWidth;
+•	let h = window.innerHeight;
+Some other methods:
+•	window.open() - open a new window
+•	window.close() - close the current window
+•	window.moveTo() - move the current window
+•	window.resizeTo() - resize the current window
+
+SCREEN
+•	The window.screen object contains information about the user's screen.
+•	Window Screen
+•	The window.screen object can be written without the window prefix.
+Properties
+•	screen.width
+•	screen.height
+•	screen.availWidth
+•	screen.availHeight
+•	screen.colorDepth
+•	screen.pixelDepth
+•	The screen.width property returns the width of the visitor's screen in pixels
+•	The screen.availWidth property returns the width of the visitor's screen, in pixels, minus interface features like the Windows Taskbar.
+
+•	Document Object
+•	The document object represents your web page.
+•	If you want to access any element in an HTML page, you always start with accessing the document object.
+•	Below are some examples of how you can use the document object to access and manipulate HTML.
+
+Method
+•	document.getElementById(id)
+•	document.getElementsByTagName(name)
+•	document.getElementsByClassName(name)
+
+Adding and Deleting Elements
+•	document.createElement(element)
+•	document.removeChild(element)
+•	document.appendChild(element)
+•	document.replaceChild(new, old)
+•	document.write(text)

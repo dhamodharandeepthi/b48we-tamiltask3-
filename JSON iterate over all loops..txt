@@ -1,0 +1,61 @@
+JSON iterate over all loops.
+
+ String to array of object useing JSON.PARSE();
+
+FOR IN:
+SYNTAX:
+ For(Let Index in Array)
+{
+console.log(array[Index]);
+}
+
+Example:
+const json = {
+  "name": "John",
+  "age": 30,
+  "city": "New York"
+};
+
+for (const key in json) {
+  if (json.hasOwnProperty(key)) {
+    console.log(key + ": " + json[key]);
+  }
+}
+
+FOR OF:
+SYNTAX:
+
+ For(Let value of Array)
+{
+console.log(value);
+}
+
+
+EXAMPLE:
+
+const json = {
+  "name": "John",
+  "age": 30,
+  "city": "New York"
+};
+
+const entries = Object.entries(json);
+
+for (const [key, value] of entries) {
+  console.log(key + ": " + value);
+}
+
+
+
+FOR EACH:
+const json = {
+  "name": "John",
+  "age": 30,
+  "city": "New York"
+};
+
+const entries = Object.entries(json);
+
+entries.forEach(([key, value]) => {
+  console.log(key + ": " + value);
+});
